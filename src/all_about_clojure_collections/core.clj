@@ -8,3 +8,7 @@
 
 ;; And it's a sequence
 (assert (seq? '(1 2 3)))
+
+;; Vectors are collections
+(assert (coll? [1 2 3]))
+
