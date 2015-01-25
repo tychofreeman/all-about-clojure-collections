@@ -12,3 +12,9 @@
 ;; And for any collection, you can know if it's empty
 (empty? '())
 (empty? '(1 2 3))
+
+;; By the way, rest has a dual
+(butlast '(1 2 3))
+
+;; And so does first
+(last '(1 2 3))
