@@ -5,3 +5,6 @@
 
 ;; And it's a collection
 (assert (coll? '(1 2 3)))
+
+;; And it's a sequence
+(assert (seq? '(1 2 3)))
