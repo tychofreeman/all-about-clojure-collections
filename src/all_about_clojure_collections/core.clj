@@ -5,3 +5,6 @@
 
 ;; You can access elements in the list
 (nth '(1 2 3) 2)
+
+;; and in a vector
+(nth [1 2 3] 2)
