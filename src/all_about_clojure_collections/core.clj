@@ -11,3 +11,6 @@
 
 ;; It evaluates to:
 (+ 1 2 3)
+
+;; Which in turn evaluates to:
+6
