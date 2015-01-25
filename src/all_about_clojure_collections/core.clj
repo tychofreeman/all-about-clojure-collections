@@ -11,3 +11,12 @@
 
 ;; but not a seq
 (assert (seq? {"hi" "there"}))
+
+;; And this is a set
+#{1 2 3}
+
+;; A set is a collection
+(assert (coll? #{1 2 3}))
+
+;; but not a seq
+(assert (seq? #{1 2 3}))
