@@ -11,3 +11,7 @@
 
 ;; Don't worry; there's nothing confusing here...
 (assert (= '(1 2 3) [1 2 3]))
+
+;; Maybe because it's so easy to interchange them
+(vec '(1 2 3))
+(seq [1 2 3])
