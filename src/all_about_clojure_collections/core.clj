@@ -5,3 +5,6 @@
 
 ;; This is the same list
 (list 1 2 3)
+
+;; A new list
+'(+ 1 2 3)
