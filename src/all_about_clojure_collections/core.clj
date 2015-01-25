@@ -8,3 +8,6 @@
 
 ;; This is the same vector
 (vector 1 2 3)
+
+;; Don't worry; there's nothing confusing here...
+(assert (= '(1 2 3) [1 2 3]))
