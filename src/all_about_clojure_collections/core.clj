@@ -7,3 +7,6 @@
 (map    inc   '(1 2 3 4 5 6))
 (map    first '([1 2] [2 3] [3 4] [4 5] [5 6]))
 (filter even? '(1 2 3 4 5 6))
+
+;; Or your may want to transform it into another type
+(into [] '(1 2 3 4 5))
