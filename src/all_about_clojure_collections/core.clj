@@ -8,3 +8,6 @@
 
 ;; A new list
 '(+ 1 2 3)
+
+;; It evaluates to:
+(+ 1 2 3)
