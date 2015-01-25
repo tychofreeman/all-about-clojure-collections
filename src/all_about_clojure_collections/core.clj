@@ -12,3 +12,6 @@
 (into [] '(1 2 3 4 5))
 (into {} '([:one 1] [:two 2] [:three 3]))
 (into [1 2 3] '(1 2 3 4 5 6))
+
+;; Or you may want to do something arbitrary
+(reduce + [1 2 3 4])
