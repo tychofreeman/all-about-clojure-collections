@@ -8,3 +8,7 @@
 
 ;; and you can get the rest
 (rest '(1 2 3))
+
+;; And for any collection, you can know if it's empty
+(empty? '())
+(empty? '(1 2 3))
