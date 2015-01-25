@@ -15,3 +15,4 @@
 
 ;; Or you may want to do something arbitrary
 (reduce + [1 2 3 4])
+(reduce conj [] '(1 2 3 4 5))
