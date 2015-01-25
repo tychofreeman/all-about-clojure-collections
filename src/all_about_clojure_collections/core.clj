@@ -2,3 +2,6 @@
 
 ;; This is a list
 '(1 2 3)
+
+;; This is the same list
+(list 1 2 3)
