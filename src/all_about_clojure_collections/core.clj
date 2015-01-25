@@ -8,3 +8,4 @@
 
 ;; and in a vector
 (nth [1 2 3] 2)
+(get [1 2 3] 2)
