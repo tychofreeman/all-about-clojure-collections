@@ -29,3 +29,6 @@
 
 ;; Make sure you put the value you want to keep last
 (merge {:a 1 :b 2} {:a 3 :d 4})
+
+;; Or, sometimes you want a smarter merge
+(merge-with min {:a 1 :b 3} {:a 3 :d 4})
