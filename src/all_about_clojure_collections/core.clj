@@ -26,3 +26,6 @@
 
 ;; You can create a superset of a map
 (merge {:a 1 :b 2} {:c 3 :d 4} {:e 5})
+
+;; Make sure you put the value you want to keep last
+(merge {:a 1 :b 2} {:a 3 :d 4})
