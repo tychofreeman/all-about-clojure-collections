@@ -6,3 +6,6 @@
 
 ;; You can get values from a map
 (get {:a 1} :a)
+
+;; A map will act like a function
+({:a 1} :a)
