@@ -21,3 +21,5 @@
 ;; You can get values without relying on nil-punning
 (find {:a 1} :a)
 
+;; You can get a subset of a map
+(select-keys {:a 1 :b 2 :c 3 :d 4} [:a :d])
