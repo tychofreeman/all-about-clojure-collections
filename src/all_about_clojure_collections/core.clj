@@ -18,3 +18,6 @@
 (assoc-in {:a {:b 2}} [:a :b] 5)
 (update-in {:a {:b 2}} [:a :b] inc)
 
+;; You can get values without relying on nil-punning
+(find {:a 1} :a)
+
