@@ -16,4 +16,5 @@
 ;; Maps can be nested
 (get-in {:a {:b 2}} [:a :b])
 (assoc-in {:a {:b 2}} [:a :b] 5)
+(update-in {:a {:b 2}} [:a :b] inc)
 
