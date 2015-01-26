@@ -8,4 +8,5 @@
 (map    first '([1 2] [2 3] [3 4] [4 5] [5 6]))
 (filter even? '(1 2 3 4 5 6))
 
-
+;; Map can take multiple sequences
+(map vector '(1 2 3 4 5) '(6 7 8 9 10))
