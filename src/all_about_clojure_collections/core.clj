@@ -23,3 +23,6 @@
 
 ;; You can get a subset of a map
 (select-keys {:a 1 :b 2 :c 3 :d 4} [:a :d])
+
+;; You can create a superset of a map
+(merge {:a 1 :b 2} {:c 3 :d 4} {:e 5})
