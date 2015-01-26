@@ -9,3 +9,8 @@
 (vals {:a 1 :b 2 :c 3})
 (seq {:a 1 :b 2 :c 3})
 
+;; Maps are immutable
+(assoc {:a 1} :a 3)
+(update-in {:a 1} [:a] inc)
+
+
