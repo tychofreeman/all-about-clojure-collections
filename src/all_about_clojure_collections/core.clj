@@ -13,4 +13,6 @@
 (assoc {:a 1} :a 3)
 (update-in {:a 1} [:a] inc)
 
+;; Maps can be nested
+(get-in {:a {:b 2}} [:a :b])
 
