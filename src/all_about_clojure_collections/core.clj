@@ -9,3 +9,6 @@
 
 ;; A map will act like a function
 ({:a 1} :a)
+
+;; A keyword will also act like a function
+(:a {:a 1})
